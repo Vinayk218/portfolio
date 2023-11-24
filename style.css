@@ -8,16 +8,16 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background: #080808;
-    color: #fff;
+    background: #fefefe;
+    color: #000;
 }
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(anime.png);
-    background-attachment: fixed;
+    background-image: url(yy.jpg);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 .container{
    
@@ -39,7 +39,7 @@ nav ul li{
     margin: 10px 20px;
 }
 nav ul li a{
-    color: #fff;
+    color: #000;
     text-decoration: none;
     font-size: 18px;
     position: relative;
@@ -73,7 +73,7 @@ nav ul li a:hover::after{
 
 #about{
     padding: 80px 0;
-    color: #ababab;
+    color: #090000;
 }
 .row{
     display: flex;
@@ -93,9 +93,10 @@ nav ul li a:hover::after{
 }
 
 .sub-title{
+    padding: 50px 0;
     font-size: 60px;
     font-weight: 600;
-    color: #fff;
+    color: #1b0404;
 }
 
 .tab-titles{
@@ -128,12 +129,12 @@ nav ul li a:hover::after{
     margin: 10px 0;
 }
 .tab-contents ul li span{
-    color: #b54769;
+    color: #ef0f56;
     font-size: 14px;
 }
 .tab-contents{
     display: none;
-}s
+}
 .tab-contents.active-tab{
     display: block;
 }
@@ -149,7 +150,7 @@ nav ul li a:hover::after{
     margin-top: 50px;
 }
 .services-list div{
-    background: #262626;
+    background: #dddddd;
     padding: 40px;
     font-size: 13px;
     font-weight: 300;
@@ -167,7 +168,7 @@ nav ul li a:hover::after{
 }
 .services-list div a{
     text-decoration: none;
-    color: #fff;
+    color: #000000;
     font-size: 12px;
     margin-top: 20px;
     
@@ -193,13 +194,13 @@ nav ul li a:hover::after{
     overflow: hidden;
 }
 .work img{
-    width: 25%;
+    width: 30%;
     border-radius: 10px;
     display: block;
     transition: transform 0.5s;
 }
 .layer{
-    width: 25%;
+    width: 30%;
     height: 0%;
     background: linear-gradient(rgba(0,0,0,0.6), #ff004f);
     border-radius: 10px;
@@ -219,6 +220,10 @@ nav ul li a:hover::after{
 .layer h3{
     font-weight: bolder;
     margin-bottom: 20px;
+    color: #fff;
+}
+.layer p{
+    color: #fff;
 }
 .layer a{
     margin-top: 20px;
@@ -226,7 +231,7 @@ nav ul li a:hover::after{
     text-decoration: none;
     font-size: 18px;
     line-height: 60px;
-    background: #fff;
+    background: #d1d0d0;
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -247,7 +252,7 @@ nav ul li a:hover::after{
     padding: 14px 50px;
     border-radius: 6px;
     text-decoration: none;
-    color: #fff;
+    color: #000;
     
 }
 
@@ -283,11 +288,13 @@ nav ul li a:hover::after{
     display: inline-block;
     background: #ff004f;
 }
+
+
 .copyright{
     width: 100%;
     text-align: center;
     padding: 25px 0;
-    background: #262626;
+    background: #d9d9d9;
     font-weight: 300;
     margin-top: ;
 }
@@ -302,7 +309,7 @@ nav .fa-solid{
 
 @media only screen and (max-width: 600px){
     #header{
-        background-image: url(anime1.png);
+        background-image: url(anime-.jpg);
     }
     .header-text{
         margin-top: 100%;
@@ -355,12 +362,12 @@ nav .fa-solid{
         margin-right: 20px;
     }
     .work img{
-        width: 45%;
+        width: 75%;
     }
     .layer{
-        width: 45%;
+        width: 75%;
     }
-    .contact-left, .contact-right{
+    .contact-left{
         flex-basis: 100%;
     }
     .copyright{
@@ -368,17 +375,23 @@ nav .fa-solid{
     }
 }
 
+
+/* Style for the "scroll to top" button with transparency */
 #scrollToTopButton {
     display: none;
     position: fixed;
     bottom: 20px;
-    right: 30px;
-    z-index: 99;
-    background-color: #ff004f;
-    color: #ffffff;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
+    right: 20px;
+    background-color: transparent; /* Set the background color to transparent */
+    color: #030303; /* Text color (you can adjust this as needed) */
     padding: 10px 20px;
-  }
-  
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Style for the button hover effect (optional) */
+#scrollToTopButton:hover {
+    background-color: #c8c6c7
+}
+

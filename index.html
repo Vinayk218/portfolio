@@ -12,7 +12,7 @@
 <div id="header">
     <div class="container">
         <nav>
-            <img src="logo.png" class="logo">
+            <img src="Logo1.png" class="logo">
             <ul id="sidemenu">
                 <li><a href="#header">Home</a></li>
                 <li><a href="#about">About</a></li>
@@ -36,11 +36,11 @@
     <div class="container">
         <div class="row">
             <div class="about-col-1">
-                <img src="anime1.png">
+                <img src="Beau3.jpg">
             </div>
             <div class="about-col-2">
                 <h1 class="sub-title">About Me</h1>
-                <p>I'm a motivated Information Science and Engineering professional with a  with a multidisciplinary perspective. 
+                <p>I'm Vinay.K, an Information Science and Engineer with a multidisciplinary perspective. 
                     My academic journey has been enriched by a diverse range of interests, from coding to data analysis and beyond.
                     I'm excited about the endless possibilities in the tech world and am eager to make a meaningful contribution.</p>
 
@@ -53,7 +53,7 @@
                         <li><span>Pragramming Languages</span><br>C, C++, Java</li>
                         <li><span>Web Development</span><br>HTML, CSS, JavaScript</li>
                         <li><span>Database Management</span><br>MySQL</li>
-                        <li><span>Soft Skills</span><br>Adoptability, Teamwork, Problem Solving, Decision making</li>
+                        <li><span>Soft Skills</span><br>Excellent Communication, Teamwork, Problem Solving, Decision making</li>
                     </ul>
                 </div>
                 <div class="tab-contents" id="education">
@@ -76,14 +76,14 @@
             <i class="fa-solid fa-chart-simple"></i>
             <h2><span>Associate Analyst</span></h2>
             <p>Namsbel Global Pvt. Ltd.<br>Jan 2022 - Oct 2022</p>
-            <a href="https://in.linkedin.com/company/namsbel-consulting">know more</a>
+            <a href="https://drive.google.com/file/d/1Hn8sPtqfct6pxFX8NQ_5Y-vxLH6tnsSy/view?usp=drive_link" target="_blank">know more</a>
                  
         </div>
         <div>
             <i class="fa-regular fa-file"></i>
             <h2><span>Quality Lab Technician</span></h2>
             <p>AT&S India Pvt. Ltd.<br>Jan 2021 - Jan 2022</p>
-            <a href="https://ats.net/en/company/">know more</a>
+            <a href="https://drive.google.com/file/d/1TChvdPjMLRBktSJHUGBnACV1kHZ51qAT/view?usp=drive_link" target="_blank">know more</a>
             
         </div>
         </div>
@@ -93,16 +93,17 @@
 <div id="projects">
     <div class="container">
         <h1 class="sub-title">My Projects</h1>
-        
+
         <div class="work-list">
             <div class="work">
                 <img src="work-1.png">
                 <div class="layer">
                     <h3>A Team Project on</h3>
                     <p>Implementation of DHCP protocol using CISCO packet tracer</p>
-                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    <a href="https://drive.google.com/file/d/1Hzq58Bx6SxK0DqwpeFcm19MLfXMlV6K2/view?usp=drive_link" target="_blank"> <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
 
-                </div>                       
+                </div>
+            </div>                       
         </div>
         
     </div>
@@ -113,27 +114,27 @@
         <div class="row">
             <div class="contact-left">
                 <h1 class="sub-title">Contact Me</h1>
-                <p><i class="fa-regular fa-envelope-open"></i></i>vinay2182001@gmail.com</p>
-                <p><i class="fa-solid fa-mobile-screen-button"></i>9148619757</p>
                 <div class="social-icons">
-                    <a href="https://www.linkedin.com/in/vinay-k-165b5428a"><i class="fa-brands fa-linkedin"></i></a>
-                </div>
-                <a href="Vinay k.pdf"  target="_blank" class="btn btn2">Download CV</a>
-                
+                    <a href="mailto:vinay2182001@gmail.com?subject=Your%20Subject" target="_blank">
+                        <i class="fa-regular fa-envelope-open"></i></a>
             </div>
-            
-            
+                
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/vinay-k-165b5428a" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="https://drive.google.com/file/d/1CRGlpE2Z8VfTdCaA336d5H9hCtaipkB5/view?usp=drive_link" download class="btn btn2" target="_blank">Download CV</a>
+            </div>
         </div>
     </div>
-    <div class="copyright">
-        <p>copyright @ Vinay.<i class="fa-regular fa-heart"></i></p>
-    </div>
-    
-    <button id="scrollToTopButton" onclick="scrollToTop()"> <i class="fa-solid fa-chevron-up"></i></button>
-
-
-
 </div>
+
+<div class="copyright">
+   <marque><p>copyright @ Vinay. <br><br> Bulid with <i class="fa-solid fa-heart"></i> by Vinay K </p></marque> 
+</div>
+
+<button id="scrollToTopButton" onclick="scrollToTop()"> <i class="fa-solid fa-chevron-up"></i></button>
+
 
 <script>
 
@@ -169,6 +170,9 @@
 
 <script>
 
+let timeoutId;
+
+
 function scrollToTop() {
     window.scrollTo({
         top: 0,
@@ -180,12 +184,18 @@ function toggleScrollTopButton() {
     const scrollTopButton = document.getElementById('scrollToTopButton');
     if (window.scrollY > 200) {
         scrollTopButton.style.display = 'block';
+        
+        clearTimeout(timeoutId);
+        timeoutId = setTimeout(function() {
+            scrollTopButton.style.display = 'none';
+        }, 5000);
     } else {
         scrollTopButton.style.display = 'none';
     }
 }
 
 window.addEventListener('scroll', toggleScrollTopButton);
+
 </script>
 
 </body>

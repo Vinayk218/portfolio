@@ -296,7 +296,7 @@ nav ul li a:hover::after{
     padding: 25px 0;
     background: #d9d9d9;
     font-weight: 300;
-    margin-top: ;
+    margin-top: 25px ;
 }
 .copyright i{
     color: #ff004f;

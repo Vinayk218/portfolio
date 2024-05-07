@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Add this line to include Tailwind CSS -->
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6140d5223c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="bg-black-500 text-white">
+        <div class="container mx-auto p-4">
+            <nav class="flex items-center justify-between">
+                <div class="logo">
+                    <img src="image/vii.PNG" alt="logo" class="h-12">
+                </div>
+                <!-- Mobile menu button -->
+                
+                <button class="md:hidden" id="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="menu">
+                <ul class="hidden md:flex space-x-4" id="menu-list">
+                    <li><a href="#hero_section">Home</a></li>
+                    <li><a href="#about_section">About</a></li>
+                    
+                    <li><a href="#experience_section">Experience</a></li>
+                    <li><a href="#contact_section">Contact</a></li>
+                </ul>
+            </div>
+            </nav>
+        </div>
+    </header>
+            
+            <section id="hero_section" class="hero_section">
+                <div class="row" id="full_row">
+                    <div class="col_hero_info">
+                        <h1>Hi, I'm <span class="animate"></span></h1>
+                        <p>Information Science Engineer</p>
+                        <a href="https://drive.google.com/file/d/1CRGlpE2Z8VfTdCaA336d5H9hCtaipkB5/view?usp=drive_link" target="_blank"><button class="btn">Download CV</button></a>
+                    </div>
+                    <div class="col_hero_img">
+                        <div class="social_icons">
+                            <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://twitter.com/" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="https://www.linkedin.com/in/vinay-k-165b5428a" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="https://web.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                            
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+    </header>
+    <main class="container mx-auto p-4">
+       
+        <section id="about_section" class="container mt-8">
+            <div class="about_info">
+                <h1 class="text-2xl md:text-4xl">About</h1>
+                <p class="text-sm md:text-base">I'm Vinay.K, an Information Science and Engineer with a multidisciplinary perspective. My academic
+                    journey has been enriched by a diverse range of interests, <span style="color:#ffc86b"> from coding to data analysis and beyond</span> 
+                    I'm excited about the endless possibilities in the tech world and am eager to make a meaningful contribution.</p>
+            </div>
+        </section>
+        
+        <section id="skill_section" class="container mt-8">
+            <h1>My Skills</h1>
+            <h2>Pragramming Languages</h2>
+            <div class="skill_part_one">
+                <div class="skill_card">
+                                
+                    <img src="image/C.png" alt="">
+                    <h3>★★★★✰</h3>                   
+                    <h3>C</h3>
+                    
+                </div>
+                
+                <div class="skill_card">
+                    <img src="image/C++.png" alt="">
+                    <h3>★★★✰✰</h3>
+                    <h3>C++</h3>
+                </div>
+                
+                <div class="skill_card">
+                    <img src="image/Java.png" alt="">
+                    <h3>★★★✰✰</h3>
+                    <h3>JAVA</h3>
+                </div>                
+            </div>
+            <h2>Web Development</h2>
+            <div class="skill_part_one">
+                <div class="skill_card">
+                    <img src="image/Html.png" alt="">
+                    <h3>★★★★✰</h3>
+                    <h3>HTML</h3>
+                </div>
+                <div class="skill_card">
+                    <img src="image/Css.png" alt="">
+                    <h3>★★★★✰</h3>
+                    <h3>CSS</h3>
+                </div>
+                <div class="skill_card">
+                    <img src="image/JS.png" alt="">
+                    <h3>★★★✰✰</h3>
+                    <h3>JavaScript</h3>
+                </div>
+            </div>
+            <h2>Database Management</h2>
+            <div class="skill_part_one">
+                <div class="skill_card">
+                    <img src="image/Sql.png" alt="">
+                    <h3>★★★✰✰</h3>
+                    <h3>MySql</h3>
+                </div>
+                
+            </div>
+        </section>
+                
+        <section id="testimonial_section">
+            <div class="testimonial">
+                <div class="testimonial_info container">
+                    <h1>Qualification</h1>
+                    <h5>2022 - Pursuing</h5>
+                    <p><span style="color:#ffc86b">B.E in Information science and Engineering</span> <br>at JSS science and technology university, Mysore</p>
+                    <br><h5>2017 - 2020</h5>
+                    <p><span style="color:#ffc86b">Diploma in Mechanical Engineering</span> <br>at Government Polytechnic Arakere,<br> Mandya</p>
+                    
+                </div>
+                
+            </div>
+        </section>
+        
+        <section id="portfolio_section" class="container">
+            <h1>Projects</h1>
+            <div class="portfolio_all_card">
+               
+                <div class="portfolio_card">
+                    <img src="image/work-1.png" alt="">
+                    <div class="portfolio_card_info">
+                        <h2>A Team Project on</h2>
+                        <p>Implementation of DHCP protocol using CISCO packet tracer</p>
+                        <a href="https://drive.google.com/file/d/1Hzq58Bx6SxK0DqwpeFcm19MLfXMlV6K2/view?usp=drive_link" target="_blank" class="button">see more</a>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </section>
+        
+        <section id="experience_section">
+            <div class="container">
+                <h1 class="exp_title">Experience</h1>
+                
+                <div class="experience">
+                    <div class="experience_info">
+                        <h1>2021</h1>
+                        <div class="experience_contents">
+                            <h2>Quality Lab Technician</h2>
+                            <div class="experience_content">
+                                <h3>AT&S India Pvt. Ltd.</h3>
+                                <p>Supported laboratory test preparations and analyzed data using specialized software like SAP.
+                                    Provided crucial insights to quality control procedures and maintained accurate records for quality
+                                    documentation.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="experience">
+                    <div class="experience_info">
+                        <h1>2022</h1>
+                        <div class="experience_contents">
+                            <h2>Associate Analyst</h2>
+                            <div class="experience_content">
+                                <h3>Namsbel Global Pvt. Ltd.</h3>
+                                <p>Responsible for gathering data from various sources, ensuring accuracy through cleaning and transformation.
+                                    Analyze data to identify patterns and create well-structured reports to effectively communicate analysis results.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+            <section class="contact" id="contact_section">
+                <div class="contact_title">
+                    <h1>Contact Me</h1>
+                </div>
+                <div class="contact_info">
+                    <div class="email">
+                        <i class="fa-regular fa-envelope"></i>
+                        <p>vinay2182001@gmail.com</p>
+                    </div>
+                    <div class="phone">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>+91 9148619757</p>
+                    </div>
+                </div>
+                <div class="location">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p>Mysore, Karnataka</p>
+                </div>
+                <div class="footer_social_icon">
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/vinay-k-165b5428a" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://web.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+            </section>
+        
+        <div class="footer">
+            <h1 class="text-2xl md:text-4xl">"Thank You! ❤"</h1>
+        </div>
+        
+
+    </main>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        let typed = new Typed('.animate', {
+            strings: [
+                "Vinay K",
+            ],
+            typeSpeed: 100,
+            backSpeed: 80,
+            loop: true
+        });
+    </script>
+    <script>
+        
+    </script>
+
+</body>
+
+</html>
